@@ -65,13 +65,13 @@ export default class Pacman {
    // her indsætter jeg billederne af pac-man så han kan tegnes og gemmer dem i et array.
   loadPacmanImages () {
     const pacmanImage1 = new Image()
-    pacmanImage1.src = 'Images/pac0.png'
+    pacmanImage1.src = 'Images/pacx.png'
 
     const pacmanImage2 = new Image()
-    pacmanImage2.src = 'Images/pac1.png'
+    pacmanImage2.src = 'Images/pacy.png'
 
     const pacmanImage3 = new Image()
-    pacmanImage3.src = 'Images/pac2.png'
+    pacmanImage3.src = 'Images/pacz.png'
 
     this.pacmanImages = [pacmanImage1, pacmanImage2, pacmanImage3]
 
